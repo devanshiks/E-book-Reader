@@ -1,0 +1,98 @@
+.bar {
+    background-color: #cc0000;
+}
+
+.jumbotron {
+    background-image: url("../images/book5.3.jpeg");
+    background-position: center;
+    width: 100%;
+    height: 350px;
+    position: relative;
+    /* margin: 0 auto; /* Center it */
+}
+
+.grid1 {
+    border: 1px solid black;
+    background-color:white;
+    height: auto;
+    width: auto;
+    overflow-x: auto;
+    overflow-y: none;
+    display: flex;
+}
+
+.grid1::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* img {
+    padding: 20px;
+    width: 30%;
+    height: 50%;
+    margin-right: 3px;
+} */
+
+a {
+    display: inline-block;
+}
+
+a img {
+    display: block;
+    margin-right:3px;
+    height: 370px;
+}
+
+
+/*.jumbotron.image{
+     background: url("book5.3.jpeg");
+  /*  background-repeat: no-repeat;
+   background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    width:100%;
+    height:450px;
+    top: 0;
+    left: 0;*/
+
+
+/*margin-top : 50px;
+
+
+}*/
+
+.jumbotron .content {
+    position: absolute;
+    ;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    left: 0;
+}
+
+.search {
+    margin-left: 30%;
+}
+
+h2 {
+    color: #cc0000;
+}
+
+#txt {
+    width: 360px;
+    text-decoration: none;
+    border-color: red;
+}
+
+#bttn {
+    background-color: #cc0000;
+    border-radius: 5px;
+    border-color: black;
+    color: White;
+    height: 35px;
+    width: 80px;
+}

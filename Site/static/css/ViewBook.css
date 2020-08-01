@@ -1,0 +1,35 @@
+.bar{
+    background-color:#cc0000;
+}
+.image{
+    border: 2px solid #cc0000 ;
+    border-radius: 5px;
+    height: 60%;
+    width: 20%;
+    margin:auto;
+    margin-top: 30px;
+    background-image: url("../images/TheKiteRunner.jpg");
+}
+h2{
+    color:#cc0000;
+    text-align: center;
+}
+.summary{
+    margin:auto;
+    height: 23%;
+    width: 60%;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#read{
+    float: right;
+    background-color: #cc0000;
+    color: white;
+    border:2px solid white;
+    border-radius:10px;
+    height: 15%px;
+    width:15%;
+}
+.fb{
+    text-align: center;
+}

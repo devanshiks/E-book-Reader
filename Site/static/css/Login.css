@@ -1,0 +1,70 @@
+body {
+    background-image: url("../images/reader5.4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+form {
+    display: inline-block;
+    border: 2px solid white;
+    background: rgba(255, 128, 0, 0.87);
+    border-radius: 10px;
+    text-align: center;
+    width: 360px;
+    height: 290px;
+    margin-top: 65px;
+    margin-left: 5px;
+    padding: 20px;
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#unm {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    outline-color: white;
+}
+
+#pwd {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    outline-color: white;
+}
+
+#user {
+    color: white;
+    background-color: yellowgreen;
+    height: 50px;
+    width: 80px;
+    border-style: solid;
+    border-radius: 15px;
+    border-color: white;
+}
+
+h5 {
+    color: white;
+    font-weight: bold;
+}
+
+#fp {
+    color: #000066;
+    text-decoration: none;
+}
+
+.nav-item {
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item :hover {
+    background-color: rgb(5, 196, 5);
+}

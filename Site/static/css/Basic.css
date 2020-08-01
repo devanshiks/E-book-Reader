@@ -1,0 +1,59 @@
+.text {
+    border: 1px solid #ffb3ff;
+    border-radius: 5px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 360px;
+    padding: 20px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/reader5.4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+input {
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    outline-color: white;
+    font-size: 15px;
+}
+
+#reg {
+    color: white;
+    background-color: #ff0066;
+    height: 50px;
+    width: 80px;
+    border-style: solid;
+    border-radius: 50%;
+    border-color: #0000ff;
+    float: right;
+}
+
+h3 {
+    color: #66ff33;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#back {
+    float: left;
+    text-decoration: none;
+    color: yellow;
+}
