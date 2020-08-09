@@ -1,0 +1,61 @@
+<html>
+
+<head>
+    <title> Registration </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Basic.css">
+    
+    <style>
+        .text {
+            height: 400px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="image">
+    </div>
+
+    <div class="container">
+        <div class="header">
+            <h3> Sign Up</h3>
+        </div>
+                <form action="HomePage.html" id="form" class="form">
+                    <div class="inputfield">
+                        <input id="unm" type="text" name="username" placeholder="Name" autofocus>
+                       <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                        <small> Error message </small>
+                    </div>
+
+                    <div class="inputfield">    
+                        <input id="em" type="email" name="useremail" placeholder="Email" >
+                        <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                        <small> Error message </small>
+                    </div>
+
+                    <div class="inputfield">
+                        <input id="pwd" type="password" name="password" placeholder="Password">
+                        <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                        <small> Error message </small>
+                    </div>
+
+                    <div class="inputfield">
+                        <input id="cpwd" type="password" name="cpassword" placeholder="Confirm Password">
+                        <i class="fa fa-check-circle"></i>
+                        <i class="fa fa-exclamation-circle"></i>
+                        <small> Error message </small>
+                    </div>
+
+
+                    <input id="reg" type="submit"  value="Register">
+
+                </form>
+    </div>
+    <script src="Validate.js"></script>
+</body>
+
+</html>
