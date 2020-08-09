@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: red;
+}
+
+.table{
+      margin-top: 50px;
+  }
+  thead{
+    background-color:#4CAF50;
+    color:white;
+  }
+  form{
+    border:1px solid none;
+    width: 500px;
+    margin:auto;
+    margin-top: 30px;
+  }
+  .inputfield{
+    margin-bottom: 10px;
+    padding-bottom: 20px;
+    position: relative;
+}
+.inputfield input{
+    border:2px solid lightgray;
+    border-radius: 10x;
+     display:block;
+    padding: 10px;
+    font-size: 18px;
+    width:100%;
+    outline:none;
+    
+}
+#btn{
+  width: 100%;
+  background-color: red;
+  opacity: 0.8;
+  color:white;
+  padding: 16px 20px;
+  border: none;
+}
+
