@@ -1,0 +1,62 @@
+<html>
+<body style="background-color:#e0e0d1;">
+    <div class="bar">
+    <nav class="navbar navbar-expand-md  navbar-dark">
+        <div class="container-fluid">
+             <button  class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#target">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="target">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" routerLink="/home" routerLinkActive="active">HOME</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto ">
+                     <li class="nav-item">
+                         <a class="nav-link active" (click)="logoutUser()">LOG OUT</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </div>
+        <div class="content">
+        <div class="left">
+            <img class="img" src="../../assets/uploads/{{book.imgpath}}">
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <h2> {{book.title}} </h2>
+            </div>
+            <div class="summary">
+                <p>
+                    GENRE: {{book.category}}
+                </p>
+                <p>
+                    SYNOPSIS : <br>
+                    {{book.desc}}
+                </p>
+            
+                <button type="button" class="btn btn-success btn-lg" (click)="readBook(book)">Read Book</button>
+                <!--a href="Feedback.html">
+                    <button type="button" class="btn btn-success btn-lg mx-2">Give Feedback</button>
+                </a-->
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="header">
+             <h2> About Author </h2>
+            </div>
+            <div class="summary">
+            <p>
+                 {{book.aboutauthor}}
+            </p>
+            </div>
+        </div>
+        </div>
+</body>
+</html>
+   

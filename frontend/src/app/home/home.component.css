@@ -1,0 +1,68 @@
+.bar{
+    background-color:#cc0000;
+    width: 100%;
+}
+
+.nav-item{
+    font-weight: bolder;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.nav-item :hover{
+    background-color:rgb(5, 196, 5);
+}
+.carousel-inner {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1; 
+    width: 100%;
+    padding: 20px; 
+    font-style: italic;
+}
+.grid1 {
+    border: 1px solid black;
+    background-color:white;
+    height: auto;
+    width: auto;
+    overflow-x: auto;
+    overflow-y: none;
+    display: flex;
+}
+.grid1::-webkit-scrollbar {
+    display: none;
+}
+a {
+    display: inline-block;
+}
+
+a img {
+    display: block;
+    margin-right:10px;
+    height: 370px;
+}
+@media only screen and (max-width: 380px){
+    a img {
+        height: 230px;
+    }
+}
+h2{
+    margin-top: 5vh;
+    color:#cc0000;
+}
+form{
+    margin-top: 5vh;
+}
+input{
+    width: 85%;
+    margin-left: 25px;
+}
